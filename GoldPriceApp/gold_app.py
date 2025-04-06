@@ -3,7 +3,8 @@ import pandas as pd
 import joblib
 
 # Load trained model
-model = joblib.load("gold_price_model.pkl")
+model = joblib.load("GoldPriceApp/gold_price_model.pkl")
+
 
 # Page config
 st.set_page_config(
